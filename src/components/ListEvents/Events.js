@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import "./Events.css"
 import AddTask from './AddTask'
 import ListTask from './ListTask'
+
+
     
 const Events = () => {
     const [tasks, setTask] = useState([])
@@ -22,14 +24,22 @@ const Events = () => {
 
   return (
     <>
+      <div>
+       
+      </div>
       <div className="todo-container">
-        <div className="header">Tasks</div>
+        <div className="header">Important Reminders</div>
         <div className="add-task">
-                  <AddTask addTask={addTask } />
+          <AddTask addTask={addTask} />
         </div>
         <div className="tasks">
-          {tasks.map((task,index) => (
-              <ListTask task={task } removeTask={removeTask} index={index} key={index} />
+          {tasks.map((task, index) => (
+            <ListTask
+              task={task}
+              removeTask={removeTask}
+              index={index}
+              key={index}
+            />
           ))}
         </div>
       </div>
