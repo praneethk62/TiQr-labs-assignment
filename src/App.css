@@ -1,0 +1,25 @@
+.invite{
+    background: black;
+    color: white;
+    margin: 50px 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.userbtn{
+    background: blue;
+    color: aliceblue;
+    border: none;
+}
+.approval{
+    background: black;
+    color: aliceblue;
+    padding:50px 50px ;
+    margin: 50px 50px;
+    text-align: center;
+
+}
+.btnapprovel{
+    padding: 10px;
+    
+}
