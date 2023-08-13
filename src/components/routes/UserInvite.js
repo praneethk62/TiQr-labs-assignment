@@ -19,7 +19,9 @@ function UserInvite() {
       <form>
         <div>
           <div className="showmes">
-            Enter the Email <br />
+            <h2>
+              Enter the Email <br />
+            </h2>
             {showSuccessMessage && (
               <div className="success-message">
                 Invitation sent successfully!
