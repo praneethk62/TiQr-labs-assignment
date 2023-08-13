@@ -25,7 +25,7 @@ function Signup() {
 
  //adding data to backend
       axios
-        .post("http://localhost:8000/saveStudent", )
+        .post("http://localhost:8000/", )
         .then((response) => {
           document.getElementById("message").innerHTML = "Successfully added";
         })
@@ -36,7 +36,7 @@ function Signup() {
   return (
     <div className="container">
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
-        <div className="mb-300 text-light bg-dark  pl-3">
+        <div className="mb-300 text-light   pl-3">
           <Form.Group as={Col} md="40" controlId="validationCustom01">
             <br />
             <br />
